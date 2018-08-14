@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b4eb0d-21c3-4585-ac5e-8cd038e584cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/PostReq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpiderNote.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpiderNote.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostReq.py" beforeDir="false" afterPath="$PROJECT_DIR$/PostReq.py" afterDir="false" />
     </list>
     <ignored path="OpenChrome.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,12 +59,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="226" />
+          <entry key="py" value="428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="226" />
+          <entry key="Python" value="428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PostReq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="141">
+              <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -401,8 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PostReq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="141">
+          <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
         </state>
       </provider>
     </entry>
