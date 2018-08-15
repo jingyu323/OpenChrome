@@ -1,4 +1,7 @@
-import urllib
+from urllib import parse
+from urllib.parse import urlencode
+from urllib import request
+from urllib.request import urlopen
 
 '''
 import 与 from...import
@@ -107,6 +110,21 @@ set(value)
 '''
 
 values = {}
-values["username"] = "kevinelstri"
-values["password"] = "******"
-data = urllib.urlencode(values)
+values["username"] = "15829779349"
+values["password"] = "qq123456789"
+values["lt"] = "LT-1178243-ow9Q740Ugbl6JY2vj2S4pDo923cRcf"
+values["execution"] = "e10s1"
+values["fkid"] = "fkid"
+values["_eventId"] = "_eventId"
+values["gps"] = "39.9805012,116.302993"
+# data=urlencode(values)#将字典类型的请求数据转变为url编码
+
+#https://passport.csdn.net/account/login
+
+url = 'https://www.zhihu.com/#signin'
+data = parse.urlencode(values).encode('utf-8')   # 提交类型不能为str，需要为byte类型
+request = request.Request(url, data)
+response = urlopen(request)
+
+# print(response)
+print(response.read().decode())
